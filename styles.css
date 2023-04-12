@@ -143,7 +143,7 @@ section{
   transform: scale(0.9);
 }
 .btn2{
-  display: inline-flex;
+  display: none;
   align-items: center;
   justify-content: center;
   font-size: 15px;
