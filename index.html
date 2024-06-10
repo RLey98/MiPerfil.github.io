@@ -159,9 +159,9 @@
       </div>
       <div class="contact-form">
         <form action="">
-          <input type="name" placeholder="Tu Nombre" required />
-          <input type="email" placeholder="Tu Email" required />
-          <input type="" placeholder="Tu Telefono" required />
+          <input type="name" placeholder="Tu Nombre" required disabled />
+          <input type="email" placeholder="Tu Email" required disabled />
+          <input type="" placeholder="Tu Telefono" required disabled />
           <textarea
             name=""
             id=""
@@ -169,8 +169,15 @@
             rows="10"
             placeholder="Escribeme un mensaje"
             required
+            disabled
           ></textarea>
-          <input type="submit" value="Enviar Mensaje" class="submit" required />
+          <input
+            type="submit"
+            value="Enviar Mensaje"
+            class="submit"
+            required
+            disabled
+          />
         </form>
       </div>
     </section>
